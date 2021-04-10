@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Container  } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./Enrollment.css";
 
 class Enrollment extends Component {
@@ -15,9 +15,7 @@ class Enrollment extends Component {
        <Col >
           <Row></Row>
           <Row>
-            <Col sm="4">
-            <img id="derian_pic" src='./images/derian_pic.jpg'/>
-            </Col>
+           
             <Col sm="8">
               <h1>Enrollemnts</h1>
               <h4>

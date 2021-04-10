@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Container  } from "react-bootstrap";
+import { Row, Col  } from "react-bootstrap";
 import "./Main.css";
 
 class Main extends Component {
@@ -13,7 +13,7 @@ class Main extends Component {
       <main>
         <Row id="test">
         <Col sm="4">
-          <img id="main_pic" src='./images/main.jpg'/>
+          <img alt="Main" id="main_pic" src='./images/main.jpg'/>
           </Col>
           <Col sm="8">
           <Row></Row>

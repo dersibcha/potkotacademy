@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { BrowserRouter } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";

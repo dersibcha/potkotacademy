@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Row, Col, Navbar, Nav } from 'react-bootstrap';
 import "./Footer.css";
 
 class Footer extends Component {
