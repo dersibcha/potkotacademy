@@ -1,23 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col, Carousel } from "react-bootstrap";
 import "./Carousels.css";
 
-class Carousels extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Carousels = () => {
 
-  render() {
     return (
-      <carousels>
         <Row id="test3">
-          <Col>
-            <Row>
+
               <Col sm="2"></Col>
               <Col>
                 <Carousel>
                   <Carousel.Item>
+                    
                     <img
                       className="d-block w-100"
                       src="./images/c1.jpg"
@@ -63,12 +57,9 @@ class Carousels extends Component {
                 </Carousel>
               </Col>
               <Col sm="2"></Col>
-            </Row>
-          </Col>
+          
         </Row>
-      </carousels>
     );
-  }
-}
+};
 
 export default Carousels;
