@@ -56,6 +56,9 @@
 @keyframes pic {
 
         0% {
+          transform:  translate(0px,0px) ;
+        }
+        2% {
           transform:  translate(-60px,3px) ;
         }
 
