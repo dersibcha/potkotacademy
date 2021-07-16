@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Main from "../Main/Main";
 import Carousels from "../Carousels/Carousels";
 import "./Home.css";
+import ValueBar from "../ValueBar/ValueBar";
 
 class Home extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Home extends Component {
     return (
       <home>
         <Main/>
+        <ValueBar/>
         <Carousels/>
       </home>
     );

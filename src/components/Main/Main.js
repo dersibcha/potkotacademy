@@ -27,8 +27,6 @@ const Main = () => {
               </Col>
               <Col sm="2"></Col>
             </Row>
-
-
           </Col>
         </Row>
       </main>

@@ -1,0 +1,30 @@
+.ValueImage{
+    width: 100%;
+    height: auto;
+    max-height: 130px ;
+    max-width: 130px ;
+    animation-name: picValue;
+    animation-duration: 2s;
+    padding-bottom: 20px;
+}
+
+@keyframes picValue {
+
+        0% {
+          transform:  translateY(-30px) ;
+        }
+        100% {
+          transform:  translateY(0) ;
+        }
+      
+    }
+
+.ValueContainer{
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.ValueText{
+    white-space: pre-line;
+}
+

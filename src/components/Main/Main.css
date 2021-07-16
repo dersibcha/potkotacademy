@@ -1,7 +1,7 @@
-h1{
+#banner-title h1{
     font-size: 50px;
     color:white;
-    padding-top: 80px;
+    padding-top: 120px;
     animation-name: title;
     animation-duration: 2s;
     animation-name: title;
@@ -10,7 +10,6 @@ h1{
 
 #button {
   border: none;
-
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -49,14 +48,15 @@ h1{
     min-height: 275px ;
     min-width: 275px ;
     animation-name: pic;
-  animation-duration: 2s;
+    animation-duration: 2s;
+    float: right; margin: 20px 0px 20px 15px;
 }
 
 
 @keyframes pic {
 
         0% {
-          transform:  translate(-100px,3px) ;
+          transform:  translate(-60px,3px) ;
         }
 
         100% {
