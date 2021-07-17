@@ -86,8 +86,8 @@
 
 @media (min-width: 800px) {
   #main_pic {
-    min-height: 0px ;
-    min-width: 0px ;
+    min-height:  none;
+    min-width:  none;
   }
 
   #banner-title h1{
