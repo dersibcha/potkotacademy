@@ -59,8 +59,8 @@
         0% {
           transform:  translate(0px,0px) ;
         }
-        50% {
-          transform:  translate(60px,3px) ;
+        2% {
+          transform:  translate(-50px,3px) ;
         }
 
         100% {
@@ -86,8 +86,8 @@
 
 @media (min-width: 800px) {
   #main_pic {
-    min-height:  none;
-    min-width:  none;
+    min-height:  auto;
+    min-width:  auto;
   }
 
   #banner-title h1{
