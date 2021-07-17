@@ -1,7 +1,7 @@
 #banner-title h1{
-    font-size: 50px;
+    font-size: 30px;
     color:white;
-    padding-top: 120px;
+    padding-top: 20px;
     animation-name: title;
     animation-duration: 2s;
     animation-name: title;
@@ -80,4 +80,18 @@
       transform:  translateY(0) ;
     }
   
+}
+
+
+
+@media (min-width: 800px) {
+  #main_pic {
+    min-height: 0px ;
+    min-width: 0px ;
+  }
+
+  #banner-title h1{
+    font-size: 50px;
+    padding-top: 120px;
+}
 }

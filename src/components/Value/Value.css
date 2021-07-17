@@ -23,11 +23,19 @@
     }
 
 .ValueContainer{
-    padding-bottom: 50px;
-    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .ValueText{
     white-space: pre-line;
 }
+
+
+@media (min-width: 800px) {
+    .ValueContainer{
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+  }
 
