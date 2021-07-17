@@ -49,6 +49,7 @@
     min-width: 275px ;
     animation-name: pic;
     animation-duration: 2s;
+    animation-delay:0s;
     float: right; margin: 20px 0px 20px 15px;
 }
 
@@ -58,8 +59,8 @@
         0% {
           transform:  translate(0px,0px) ;
         }
-        2% {
-          transform:  translate(-60px,3px) ;
+        50% {
+          transform:  translate(60px,3px) ;
         }
 
         100% {
